@@ -1,6 +1,9 @@
 # A.2. Bias in Data
 ## Goal:
+The goal of this assignment is to collect, curate, and analyze data on articles of politicians for many countries, then explore the biases that can be present in this analysis. We will collect article data from Wikipedia as well as population data from the Population Reference Bureau. We want to understand the coverage of politicians for different countries on Wikipedia as well as the quality of article for the politician. It is important to then discuss the biases that can pop within this analysis to better understand moving forward what we can do to alleviate and account for these biases.
 ## Data Sources:
+*   Politicians by Country Dataset: https://figshare.com/articles/Untitled_Item/5513449
+*   World Population Data Sheet: https://docs.google.com/spreadsheets/d/1CFJO2zna2No5KqNm9rPK5PCACoXKzb-nycJFhV689Iw/edit?usp=sharing
 ## Data Descriptions:
 ### wp_wpds_politicians_by_country.csv
 ### wp_wpds_countries-no_match.csv
