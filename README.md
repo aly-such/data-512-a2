@@ -42,7 +42,10 @@ https://colab.research.google.com/drive/1uoPw5-ut70QY5BrvpKbiHlLP2gOpf6lb#scroll
 https://colab.research.google.com/drive/1uoPw5-ut70QY5BrvpKbiHlLP2gOpf6lb#scrollTo=ENJ_9CpQh0v8&line=2&uniqifier=1
 
 ### Geographic regions by coverage: Ranking of geographic regions (in descending order) in terms of the total count of politician articles from countries in each region as a proportion of total regional population
+https://colab.research.google.com/drive/1uoPw5-ut70QY5BrvpKbiHlLP2gOpf6lb#scrollTo=ld8cwmKTsT0u&line=2&uniqifier=1
+
 ### Geographic regions by coverage: Ranking of geographic regions (in descending order) in terms of the relative proportion of politician articles from countries in each region that are of GA and FA-quality
+https://colab.research.google.com/drive/1uoPw5-ut70QY5BrvpKbiHlLP2gOpf6lb#scrollTo=AunaktxxwXE7&line=2&uniqifier=1
 
 ## Reflection:
 
