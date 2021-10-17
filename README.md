@@ -14,12 +14,14 @@ Article Name - the name of the article of the politician, str
 Revision ID - the key that connects politician country dataset and world population data set, str
 Article Quality Estimated - the estimated quality of the article, predicted by ORES, str
 Population - the population of the country, int
+Sub-Region - the name of the Sub-Region that the country is found in, str
 ### wp_wpds_countries-no_match.csv:
 Country - the name of the country of article origin, str
 Article Name - the name of the article of the politician, str
 Revision ID - the key that connects politician country dataset and world population data set, str
 Article Quality Estimated - these articles could not have their quality predicted so -1 was used as a placeholder to log these articles, int
 Population - the population of the country, int
+Sub-Region - the name of the Sub-Region that the country is found in, str
 ### Some other fields that can be found in the tables below:
 percentage - proportion of articles per selected country population, int, (Number of Articles/Country Population) * 100
 Percentage of Quality Articles - proportion of high quality articles per total number of articles for each country, int, (Number of High Quality Articles/Total Number of Articles) * 100
@@ -48,12 +50,11 @@ https://colab.research.google.com/drive/1uoPw5-ut70QY5BrvpKbiHlLP2gOpf6lb#scroll
 https://colab.research.google.com/drive/1uoPw5-ut70QY5BrvpKbiHlLP2gOpf6lb#scrollTo=AunaktxxwXE7&line=2&uniqifier=1
 
 ## Reflection:
-
+I learned a lot form this short project, accomplishing many tasks such as data sanization, using ORES, and analyzing metrics about a country's political articles on Wikipedia.
 ## Questions:
 ### What biases did you expect to find in the data (before you started working with it), and why?
+I expected there to be a bias toward English speaking countries and the quality of articles they produce. I imagined that countries where English was the native lanuage would produce more articles of politicians as well as high quality articles because we are working with data from English Wikipedia.
 ### What (potential) sources of bias did you discover in the course of your data processing and analysis?
+Some sources of bias that I discovered in the course of data processing and analysis included assuming that the number of politicians per population were linearly related as well as the number of quality articles per total number of articles were linearly related as well. To compare number of politican articles to the population of a country may be misguided because articles of historical political figures are included as well as current political figures. As previously mentioned, number of politicans vs population would not be linearly related because the number of politicians is dependent upon how far back chronologically they include people, the way a country is sectored or split up (such as number of districts, etc.), the way a government is (parlimentarian, democratic, totalitarian, etc.), and not just population size. With this in mind, while it is interesting to note the ratio of politican articles to the population, I do not know how effective it is as a metric. On top of this, we are looking at English Wikipedia which is bound to have a certain slant on different politicians even if there is an appropriate rating system in place. Allegedly, North Korea has a high amount of quality articles, but those articles could say something much different than what can be said in Korean Wikipedia. Which one more accurately reflects the reality of the politician? For reference, Kim Jong Un is rated as a B-quality article and would not be included in the high quality article assessment.
 ### What might your results suggest about (English) Wikipedia as a data source?
-### What might your results suggest about the internet and global society in general?
-### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
-### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-### How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
+For the particular subject of politicians, English Wikipedia can be a treacherous data source to navigate if you are looking for high quality information. The highest percentage of quality articles versus total number of articles was around 20% from North Korea, which in my opinion, is a low percntage if quality articles to have in politics. The United States in particular only has 80 quality articles about politicians out of 1068. Some of those high quality articles include Barack Obama, Ronald Regan, and George Washington (albeit he is good as compared to featured). Abraham Lincoln was a featured article but dropped to good article quality. I could not find the article quality of Donald Trump. Based on this very limited research, I assume that current politicians, those with high amounts of controversy, are politicians in history are harder to accurately reflect in high quality articles. For surface level information and summaries, Wikipedia is a great place to go to in general, but for deeper understanding and thorough research, it would be best to go to the scholarly articles that are linked in the references.
